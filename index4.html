@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!--22161036 윤채영-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>street women fighter</title>
+    <style>
+      body{
+        margin : 0;
+        background-color : #F2F4F6;
+      }
+      a{
+        text-decoration: none;
+      }
+      .homeLogo>a>img {
+        display : block;
+        margin : 0;
+        width : 100%;
+      }
+      .mainMenu {
+        background-color : #2A2A2E;
+        font-family: Pretendard;
+        color : white;
+        font-weight: 600; <!--글자 두께 수치-->
+      }
+      .mainMenu>ul {
+        margin : auto;
+        padding : 0;
+        width : 50%;
+        list-style : none;
+        display : flex;
+        justify-content: space-between; <!--flex에서 주로 사용 요소들이 자동으로 정렬-->
+        text-align : center;
+        box-sizing : border-box;
+      }
+      ul>li>a {
+        display : inline-block;
+        width: 100%;
+        height: 70px;
+        font-size: 22px;
+        color: inherit;
+        line-height: 70px;
+        box-sizing: border-box;
+      }
+      .container{
+        background-color : white;
+        width : 80%;
+          margin : auto;
+      }
+      .crew {
+        text-align : center;
+        margin : 20;
+      }
+
+      #w1 {
+          text-align : left;
+          padding : 30px;
+          padding-left: 280px;
+          width : 80%;
+      }
+      #s1{
+
+        width : 900px;
+        padding-left: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container-wrap">
+      <div class="wrap"><!--wrap-->
+        <div class="homeLogo"><!--홈으로 이동함-->
+          <a href="index.html"><img src='img/main.png'></a>
+        </div>
+        <div class="mainMenu"><!--메인메뉴임-->
+          <ul>
+            <li><a href="index2.html">크루 소개</a></li>
+            <li><a href="index3.html">무대 보기</a></li>
+            <li><a href="index4.html">방송 안내</a></li>
+          </ul>
+        </div>
+        <div class="container">
+            <div class="program">
+              <h2 id='w1'>프로그램 소개</h2>
+              <ul id='s1'>
+                <li>방영 시간 : 매주 화요일 Pm 10:20 ~ 12:20</li>
+                <li>방영 채널 : Mnet</li>
+                <li>우승 혜택 : 트로피 & 5000만원 상금</li>
+              </ul>
+              <h2 id='w1'>스트릿고등파이터 참가 공지</h2>
+              <ul id='s1'>
+                <li>모집 기간 : 2021. 10. 14 ~ 2021. 10 .14 </li>
+                <li>방영 채널 : Mnet</li>
+                <li>나이: 2003~2005년생</li>
+                <li>지원 양식 첨부 <input type='file'> <button>확인</button>   </li>
+              
+              </ul>
+            </div>
+            <div >
+              <a href="https://www.youtube.com/channel/UCepUWUpH45hRTi-QePdq1Bg"><img src='img/mnet.png' width='110' height='80'  > </a>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
